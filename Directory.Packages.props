@@ -1,0 +1,14 @@
+<!--
+SPDX-FileCopyrightText: NONE
+SPDX-License-Identifier: CC0-1.0
+-->
+
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    </PropertyGroup>
+    <ItemGroup>
+        <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.400" />
+    </ItemGroup>
+</Project>

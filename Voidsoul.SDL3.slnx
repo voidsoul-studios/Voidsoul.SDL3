@@ -1,0 +1,23 @@
+
+
+<!--
+SPDX-FileCopyrightText: 2026 Voidsoul Studios
+SPDX-License-Identifier: Zlib
+-->
+
+<Solution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/microsoft/vs-solutionpersistence/refs/tags/v1.0.52/src/Microsoft.VisualStudio.SolutionPersistence/Serializer/Xml/Slnx.xsd">
+    <Folder Name="/Solution Items/">
+        <File Path=".gitattributes" />
+        <File Path=".gitignore" />
+        <File Path="Directory.Build.props" />
+        <File Path="Directory.Packages.props" />
+        <File Path="README.md" />
+    </Folder>
+    <Folder Name="/Licenses/">
+        <File Path="LICENSE" />
+        <File Path="REUSE.toml" />
+        <File Path="LICENSES/CC0-1.0.txt" />
+        <File Path="LICENSES/Zlib.txt" />
+    </Folder>
+    <Project Path="Voidsoul.SDL3/Voidsoul.SDL3.csproj" />
+</Solution>
